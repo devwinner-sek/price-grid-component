@@ -1,0 +1,349 @@
+/*Include fonts police*/
+@import "https://fonts.googleapis.com/css?family=Karla:500,700";
+
+/*-------- Body style --------------- */
+body
+{
+  
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+letter-spacing: -2px;
+background-color: #e6eff6;
+}
+/*Body and global card*/
+.card-container, body{
+  margin: 0;
+  padding: 0;    
+}
+
+.card-container {
+  width: 100%;
+  padding: 0px;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Card center start -------------------------------------------------*/
+.card-centered {
+  width: 638px;
+  height: 475px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-left,.card-right
+{
+  background: #2AB3B1;
+  width: 319px;
+  height: 259px;
+}
+
+.card-left
+{
+   background-color: #2ab3b1;
+   display: flex;
+   justify-content:flex-start;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 2%;
+   border-radius: 0px 0px 0px 8px;
+   margin: 0px;
+}
+
+.card-right
+{
+   background-color: #4abfbd;
+   padding: 2%;
+   border-radius: 0px 0px 8px 0px;
+   display: flex;
+   justify-content:flex-start;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.btn-signup
+{
+  background: #C0DF33;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  border-radius: 5px;
+  width: 200px;
+  height: 36px;
+  border: 2px solid #C0DF33;
+  color: white;
+}
+
+.card-item-title
+ {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  color: #FFFFFF;
+  margin-top: 22px;
+ }
+
+ .card-item-description
+ {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.175px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  width: 210px;
+  margin-top: 22px;
+ }
+
+ .card-price-info
+ {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 0px;
+ }
+
+ .card-price, .card-month
+ {
+   display: block;
+ }
+ .card-price
+ {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+  color: #FFFFFF;
+ }
+
+ .card-month
+ {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-left: 12px;
+ }
+
+.card-center
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.card-item-top
+{
+   padding: 30px;
+}
+
+.card-title
+{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #9AA7BE;
+  font-weight: bold;
+}
+
+.card-description
+{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #9AA7BE;
+}
+.card-subtitle
+{
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: -0.225px;
+color: #C0DF33;
+}
+
+.card-title-period
+{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;  
+  letter-spacing: -0.225px;
+  color: #FFFFFF;
+  margin-top: 22px;
+  margin-bottom: 0px;
+
+}
+
+.card-access, .card-info-us, .btn-signup, .card-title-period, .card-price-info
+{
+  margin-left: 22px;
+}
+.card-access
+{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #FFFFFF;
+  margin-top: 0px;
+}
+
+h1
+{
+   margin: 0px;
+}
+
+.card-content-item1
+{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    width: 1110px;
+    height: 245px;
+}
+
+
+
+/*style for mobile device*/
+
+@media (max-width: 320px) {
+
+  .card-container
+  {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .card-item2, .card-item3, .card-item1, .card-item4
+  {
+    width: 88%;
+    margin-left: auto;
+  }
+  .card-item-center
+  {
+    width: 100%;
+  }
+  .card-content-item
+  {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center;
+      padding-right: 1em;
+      padding-left: 1em;
+  }
+  .card-info
+   {
+     padding-top: 12em;
+   }
+  
+}
+
+@media(min-width: 320px) and (max-width: 992px) {
+   
+
+  .card-centered
+    {
+      
+      width: 322px;
+      height: 780px;
+
+    }
+
+    .card-container 
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; 
+      margin-top: 70px;
+    }
+    .card-center
+    {
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+
+    .card-left, .card-right
+    {
+      width: 309px;
+      height: 245px;
+    }
+
+    .card-title,.card-subtitle
+    {
+       margin-top: 10px;
+    }
+    .card-left
+    {
+       border-radius: 0px 0px 0px 0px;
+    }
+    .card-right
+    {
+       border-radius: 0px 0px 8px 8px;
+    }
+
+    .card-item-title, .card-item-description
+    {
+      margin-left: 22px;
+    }
+
+    .card-description
+    {
+      font-family: 'Karla';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 26px;
+      letter-spacing: -0.175px;
+      color: #9AA7BE;
+    }
+    
+
+
+    
+
+}
+
